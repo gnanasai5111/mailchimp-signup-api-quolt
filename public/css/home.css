@@ -1,0 +1,105 @@
+/* logo header */
+.logo-header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+.header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.8s ease-in-out,opacity 0.8s ease-in-out;
+}
+html{
+  scroll-behavior: smooth;
+}
+a {
+  color: #555555;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.flaticon-phone:hover {
+  color: #00F4DF;
+}
+
+.phone-icon, .right-arrow-icon {
+  color: #00F4DF;
+  font-size: 0.9rem;
+}
+
+.right-arrow-icon {
+  position: absolute;
+  border: 1px solid #e5e9ed;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: -1px;
+  left: -1px;
+  text-align: center;
+  padding: 11px;
+}
+
+.align {
+  align-items: center;
+}
+
+.contact-icon {
+  border: 1px solid #e5e9ed;
+  padding: 9px 20px 9px 50px;
+  border-radius: 50px;
+  position: relative;
+  transition: padding 0.5s ease-in-out;
+}
+
+.contact-icon:hover {
+  background-color: #00F4DF;
+}
+
+.flaticon-phone, .contact-icon {
+  margin-left: 60px;
+  display: inline-block;
+}
+
+/* main header */
+.navbar {
+  padding: 20px 0;
+}
+
+.main-header {
+  z-index: 9999 !important;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px rgb(0 0 0 / 5%);
+  border-top: 1px solid #eeeeee;
+}
+
+.header-social-icon ul li {
+  display: inline-block;
+  padding-right: 13px;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  padding-right: 22px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.main-nav ul li a {
+  color: #2a2a2a !important;
+}
+
+.main-nav ul li a:hover {
+  color: #00F4DF !important;
+}
+
+.icons:hover {
+  font-size: 0.9rem;
+}
+
+ /* li.dropdown:hover div.dropdown-menu{ display: block; } */

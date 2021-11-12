@@ -1,0 +1,176 @@
+@media (max-width:768px) {
+
+  /* loading logo */
+  .loading {
+    width: 150px;
+  }
+
+   .worksheading, .Aboutusheading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1rem;
+    letter-spacing: 18px;
+  }
+
+.each-service-tablet-bg0,.each-service-tablet-bg1,.each-service-tablet-bg2{
+  display: block;
+}
+
+  /* making our work section images of full width */
+  .ourworkimage {
+    width: 100%;
+  }
+
+
+
+  /* setting object position for our work section images*/
+  .iot, .sanitary, .cutlery, .arduino, .toaster, .logo {
+    object-position: 0 !important;
+  }
+
+  .faucet, .gameboy, .dwarf, .vortex {
+    object-position: 0 !important;
+  }
+
+  .chair {
+    object-position: -171px !important;
+  }
+
+  .directionpad {
+    object-position: -59px !important;
+  }
+
+  .lcr {
+    object-position: -380px !important;
+  }
+
+  .modulos {
+    object-position: -171px !important;
+  }
+}
+
+/* setting object position for our work section images*/
+@media (min-width:541px) and (max-width:580px) {
+
+
+  .modulos {
+    object-position: -139px !important;
+  }
+
+  .chair {
+    object-position: -44px !important;
+  }
+
+  .directionpad {
+    object-position: -25px !important;
+  }
+}
+
+
+
+@media (max-width:540px) {
+
+  /* video width for mobiles */
+  .home-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+  }
+
+  .video-container {
+    overflow: hidden;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+/* hiding our work section in tablet mode */
+@media (min-width: 768px) and (max-width: 1280px) {
+
+  /* display tablet version our worksin tablet */
+  .ourworks-tablet {
+    display: block !important;
+  }
+
+  .ourworks-desktop {
+    display: none;
+  }
+
+  /* headings for all sections */
+   .worksheading, .Aboutusheading {
+    font-size: 1rem;
+    letter-spacing: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+  /* video width for mobiles */
+  .home-video {
+
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+  .video-container {
+    overflow: hidden;
+  }
+
+  /*  our works mobiles version*/
+  .ourworks-mobile {
+    display: block;
+  }
+
+  .ourworks-desktop {
+    display: none;
+  }
+
+  /* about us section para */
+  .aboutus-para {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1373px;
+  }
+
+  .col-md-6 {
+    max-width: 100%;
+  }
+}
+
+
+
+/* tablet version our works */
+@media (min-width:768px) and (max-width:801px) {
+  .next {
+    margin-left: 450px !important;
+  }
+}
+@media (max-width: 992px) {
+  .main-nav{
+    text-align: center;
+  }
+}
